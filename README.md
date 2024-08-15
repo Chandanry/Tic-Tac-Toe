@@ -1,4 +1,4 @@
 # Tic-Tac-Toe
-tech used
+Tech used
 <br>
 Html , Css , JavaScript
