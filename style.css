@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #667471;
+    background-color: #141E61;
     text-align: center;
 }
 
@@ -14,9 +14,16 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
 }
 h1{
-    color: rgb(241, 245, 245);
+    color: rgb(252, 252, 252);
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-size: 10vmin;
 }
 .game{
     height:60vmin; /* 60% of container */
@@ -26,6 +33,8 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
+    
+
 }
 
 .box{
@@ -35,16 +44,22 @@ h1{
     border:none;
     box-shadow: 0 0 1rem (0, 0, 0, 0.3);
     font-size: 8vmin;
-    color: rgb(248, 129, 2);
-    background-color: aquamarine;
+    color: #FF8F00;
+    background-color: #F7F3E9;
 }
 
 #reset{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: rgb(238, 149, 5);
+    background-color: rgb(12, 8, 0);
     color: white;
     border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+#reset:hover{
+    box-shadow: 0 0 20px 5px #FF8F00;
+    transform: scale(1.05);
 }
 
 #gamebtn{
@@ -54,15 +69,29 @@ h1{
     color:white;
     border-radius: 10px;
     border:none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#gamebtn:hover{
+    box-shadow: 0 0 20px 5px #0b0b0b;
+    transform: scale(1.05);
 }
 
 #ms{
-    color:white;
-    font-size: 5vmin;
+    color:#080808;
+    font-size: 10vmin;
 }
 
+#a{
+    color:rgb(22, 21, 21);
+    font-size: 7vmin;
+}
+
+
 .msg{
-  height: 80vmin;
+  background-color: #10a1ce;
+  height: 100vmin;
   display: flex;
   justify-content: center;
   align-items: center;
